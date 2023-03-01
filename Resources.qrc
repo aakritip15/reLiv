@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>Images/announcement.png</file>
+        <file>Images/blood.png</file>
+        <file>Images/blood_bag.png</file>
+        <file>Images/blood_donor.png</file>
+        <file>Images/blood_drop.png</file>
+        <file>Images/Donor.png</file>
+        <file>Images/infosame.jpg</file>
+        <file>Images/logo_small.png</file>
+        <file>Images/logo1.png</file>
+        <file>Images/Profile.png</file>
+        <file>Images/blood_main.png</file>
+        <file>Images/logo.png</file>
+        <file>Images/camp.png</file>
+        <file>Images/hospital.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>Images/request_blood.jpg</file>
+        <file>Images/donate_blood.jpg</file>
+        <file>Images/vision.png</file>
+        <file>Images/reLiv.png</file>
+        <file>Images/why.jpg</file>
+        <file>Images/benefits.jpg</file>
+        <file>Images/background.png</file>
+        <file>Images/person_photo.png</file>
+        <file>Images/profile1.jfif</file>
+        <file>Images/log_in.png</file>
+        <file>Images/login.jpg</file>
+        <file>Images/person.jpg</file>
+        <file>Images/create_account.jpg</file>
+        <file>Images/back_arrow.png</file>
+        <file>Images/donateBlood.png</file>
+        <file>Images/blood-donation2.gif</file>
+        <file>Images/search.jpg</file>
+        <file>Images/campaign.png</file>
+        <file>Images/emergency.png</file>
+        <file>../../../Downloads/pr2.png</file>
+        <file>../../../Downloads/vector-illustration-of-donate-blood-concept-for-world-blood-donor-day-T7393X-removebg-preview.png</file>
+        <file>../../../Downloads/output-onlinepngtools (1).png</file>
+        <file>../../../Downloads/istockphoto-1091728056-612x612-removebg-preview.png</file>
+        <file>../../../Downloads/istockphoto-1179369531-612x612-removebg-preview.png</file>
+        <file>../../../Downloads/bg.png</file>
+        <file>Images/donor_day.JPG</file>
+        <file>Images/blood.jpg</file>
+    </qresource>
+</RCC>

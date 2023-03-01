@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>request_blood</class>
+ <widget class="QDialog" name="request_blood">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1270</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #EFE6E7;</string>
+  </property>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>0</y>
+     <width>81</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(255, 255, 255);
+border-image: url(:/img/Images/logo1.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="home">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>30</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#home
+
+{
+ background-color:rgb(255, 255, 255);
+border-radius:0.5px;
+}
+
+#home::hover{border-bottom :3px solid rgb(144, 10, 18);
+color: rgb(144, 10, 18);}</string>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="about">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>30</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#about
+
+{
+ background-color:rgb(255, 255, 255);
+border-radius:0.5px;
+}
+
+#about::hover{border-bottom :3px solid rgb(144, 10, 18);
+color: rgb(144, 10, 18);}</string>
+   </property>
+   <property name="text">
+    <string>About us</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="why">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>30</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#why
+
+{
+ background-color:rgb(255, 255, 255);
+border-radius:0.5px;
+}
+
+#why::hover
+{
+border-bottom :3px solid rgb(144, 10, 18);
+color: rgb(144, 10, 18);
+}</string>
+   </property>
+   <property name="text">
+    <string>Why become donor</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="login">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>30</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#login
+{
+ background-color:rgb(144, 10, 18);
+border-radius:20px;
+	color: rgb(255, 255, 255);
+}
+#login::hover
+{
+background-color:white;
+	color: rgb(144, 10, 18);
+}</string>
+   </property>
+   <property name="text">
+    <string>Dashboard</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>99</y>
+     <width>1280</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>99</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Line" name="line_4">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>435</y>
+     <width>89</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>125</y>
+     <width>89</width>
+     <height>540</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:5px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>130</y>
+     <width>63</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border-image: url(:/img/Images/Profile.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>360</y>
+     <width>89</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="my_details_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>370</y>
+     <width>81</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+ background-color:rgb(255, 255, 255);
+border-radius:5px;}
+
+#my_details_3::hover{
+border-botton:3px solid rgb(144, 10, 18);
+color: rgb(144, 10, 18);}
+</string>
+   </property>
+   <property name="text">
+    <string>Request
+Blood</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="my_details">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>210</y>
+     <width>81</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#my_details
+{
+ background-color:rgb(255, 255, 255);
+border-radius:5px;
+}
+
+
+#my_details::hover{
+border-botton:3px solid rgb(144, 10, 18);
+color: rgb(144, 10, 18);}</string>
+   </property>
+   <property name="text">
+    <string>My
+Details</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>280</y>
+     <width>89</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_5">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>200</y>
+     <width>89</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="my_details_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>290</y>
+     <width>81</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+ background-color:rgb(255, 255, 255);
+border-radius:5px;}
+
+#my_details_2::hover{
+border-botton:3px solid rgb(144, 10, 18);
+color: rgb(144, 10, 18);}
+</string>
+   </property>
+   <property name="text">
+    <string>Donate
+Blood</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>440</y>
+     <width>89</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>138</x>
+     <y>125</y>
+     <width>845</width>
+     <height>542</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:5px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>140</y>
+     <width>403</width>
+     <height>502</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border-image: url(:/Images/request_blood.jpg);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="age">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>330</y>
+     <width>91</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*
+{
+border-radius:5px;
+background-color:#F1EEEE;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>     Age  </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="phone_number">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>390</y>
+     <width>201</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*
+{
+border-radius:5px;
+background-color:#F1EEEE;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>   Phone Number</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="contact_person">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>210</y>
+     <width>376</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*
+{
+border-radius:5px;
+background-color:#F1EEEE;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>    Contact Person Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="blood_group">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>330</y>
+     <width>121</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*
+{
+border-radius:5px;
+background-color:#F1EEEE;
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>   Blood Group</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="gender">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>330</y>
+     <width>121</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*
+{
+border-radius:5px;
+background-color:#F1EEEE;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>  Gender</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>150</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Request blood</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="register_2">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>570</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#register_2
+{
+background-color:rgb(144, 10, 18);
+border-radius:8px;
+	color: rgb(255, 255, 255);
+}
+
+#register_2::hover
+{
+background-color:white;
+	color: rgb(144, 10, 18);
+}</string>
+   </property>
+   <property name="text">
+    <string>Request Blood</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="patient_name">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>270</y>
+     <width>376</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*
+{
+border-radius:5px;
+background-color:#F1EEEE;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>     Patient Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="detail">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>499</y>
+     <width>371</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*
+{
+border-radius:5px;
+background-color:#F1EEEE;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>   More detail about case</string>
+   </property>
+  </widget>
+  <widget class="QCalendarWidget" name="calendarWidget">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>450</y>
+     <width>237</width>
+     <height>219</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 9pt &quot;Segoe UI&quot;;
+border-radius:5px;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="required_unit">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>390</y>
+     <width>161</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*
+{
+border-radius:5px;
+background-color:#F1EEEE;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>  Required unit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="register_3">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>570</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#register_3
+{
+background-color:rgb(144, 10, 18);
+border-radius:8px;
+	color: rgb(255, 255, 255);
+}
+
+#register_3::hover
+{
+background-color:white;
+	color: rgb(144, 10, 18);
+}</string>
+   </property>
+   <property name="text">
+    <string>Emergency request</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="login_2">
+   <property name="geometry">
+    <rect>
+     <x>1100</x>
+     <y>30</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#login_2
+{
+ background-color:rgb(144, 10, 18);
+border-radius:20px;
+	color: rgb(255, 255, 255);
+}
+
+#login_2::hover
+{
+background-color:white;
+	color: rgb(144, 10, 18);
+}</string>
+   </property>
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>452</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>450</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*
+{
+border-radius:5px;
+background-color:#F1EEEE;
+}</string>
+   </property>
+   <property name="text">
+    <string>   Required Date</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>130</y>
+     <width>237</width>
+     <height>306</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(250, 250, 250);
+border-radius:3px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="Resources.qrc">
+     <normaloff>:/Images/donor_day.JPG</normaloff>:/Images/donor_day.JPG</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>250</width>
+     <height>400</height>
+    </size>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_7</zorder>
+  <zorder>home</zorder>
+  <zorder>about</zorder>
+  <zorder>why</zorder>
+  <zorder>login</zorder>
+  <zorder>line</zorder>
+  <zorder>line_4</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_5</zorder>
+  <zorder>line_3</zorder>
+  <zorder>my_details_3</zorder>
+  <zorder>my_details</zorder>
+  <zorder>line_2</zorder>
+  <zorder>line_5</zorder>
+  <zorder>my_details_2</zorder>
+  <zorder>line_6</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>age</zorder>
+  <zorder>phone_number</zorder>
+  <zorder>contact_person</zorder>
+  <zorder>blood_group</zorder>
+  <zorder>gender</zorder>
+  <zorder>label_15</zorder>
+  <zorder>register_2</zorder>
+  <zorder>patient_name</zorder>
+  <zorder>detail</zorder>
+  <zorder>calendarWidget</zorder>
+  <zorder>required_unit</zorder>
+  <zorder>register_3</zorder>
+  <zorder>login_2</zorder>
+  <zorder>dateEdit</zorder>
+  <zorder>label_8</zorder>
+  <zorder>pushButton_4</zorder>
+ </widget>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
